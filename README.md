@@ -19,9 +19,8 @@ Here are some ideas to get you started:
 SKILLS
 
 
-* HTML ![HTML](https://github.com/ManavJain01/ManavJain01/assets/118716368/45535feb-5b4c-4df7-8fda-f586c3a1e342)
- CSS ![CSS](https://github.com/ManavJain01/ManavJain01/assets/118716368/ebace99d-3c01-4d8e-ba35-904d16f0ca01)
- JavaScript ![JS](https://github.com/ManavJain01/ManavJain01/assets/118716368/adcc0805-da46-4960-bc6c-a19abad6f30a)
+* HTML CSS JavaScript
+![HTML](https://github.com/ManavJain01/ManavJain01/assets/118716368/45535feb-5b4c-4df7-8fda-f586c3a1e342) ![CSS](https://github.com/ManavJain01/ManavJain01/assets/118716368/ebace99d-3c01-4d8e-ba35-904d16f0ca01) ![JS](https://github.com/ManavJain01/ManavJain01/assets/118716368/adcc0805-da46-4960-bc6c-a19abad6f30a)
 ##
 ##
 ##
