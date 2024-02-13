@@ -18,7 +18,11 @@ Here are some ideas to get you started:
 
 SKILLS
 
-* HTML/CSS/JavaScript          ![HTML](https://github.com/ManavJain01/ManavJain01/assets/118716368/c6d46c59-6366-4fa8-9186-04f025ee263f) ![CSS](https://github.com/ManavJain01/ManavJain01/assets/118716368/c1fcff37-59e4-4265-b748-8d1030e8313c) ![JS](https://github.com/ManavJain01/ManavJain01/assets/118716368/3825a918-5ec3-4d8b-a25f-5b316aab1650)
+
+* HTML ![HTML](https://github.com/ManavJain01/ManavJain01/assets/118716368/45535feb-5b4c-4df7-8fda-f586c3a1e342)
+ CSS ![CSS](https://github.com/ManavJain01/ManavJain01/assets/118716368/ebace99d-3c01-4d8e-ba35-904d16f0ca01)
+ JavaScript ![JS](https://github.com/ManavJain01/ManavJain01/assets/118716368/adcc0805-da46-4960-bc6c-a19abad6f30a)
+
 
 * Tailwind                     ![tailwind](https://github.com/ManavJain01/ManavJain01/assets/118716368/bef9b8dc-a54c-4f4f-acbe-c6e9cb2f42c1)
 
