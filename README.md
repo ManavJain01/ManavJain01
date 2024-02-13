@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 ![welcome to my profile](https://github.com/ManavJain01/ManavJain01/assets/118716368/7ce1a8fb-4615-4e57-a5b2-db5f33eeee0d)
 
 SKILLS
-  * HTML/CSS/JavaScript ![html-css-JS](https://github.com/ManavJain01/ManavJain01/assets/118716368/937dd7b1-cc12-4b2a-bb0d-614df8282311)
+  * HTML/CSS/JavaScript
 
   * Tailwind
   * React
