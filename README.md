@@ -22,5 +22,4 @@ SKILLS
   * React
   * Problem Solving
 
-🔭 I’m currently working on MERN stack development.
-🌱 I’m currently learning Node JS
+🔭 I’m currently working on Something new 😀.
