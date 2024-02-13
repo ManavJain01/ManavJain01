@@ -24,13 +24,19 @@ SKILLS
  JavaScript ![JS](https://github.com/ManavJain01/ManavJain01/assets/118716368/adcc0805-da46-4960-bc6c-a19abad6f30a)
 
 
-* Tailwind ![tailwind](https://github.com/ManavJain01/ManavJain01/assets/118716368/26f55def-25c2-4b2a-bd63-417f0ddd1ab4)
+
+
+* Tailwind  ![tailwind](https://github.com/ManavJain01/ManavJain01/assets/118716368/26f55def-25c2-4b2a-bd63-417f0ddd1ab4)
+
+
 
 
 * React ![React](https://github.com/ManavJain01/ManavJain01/assets/118716368/d9500840-8b52-41db-a6f0-e450fd9d997b)
  Redux ![Redux](https://github.com/ManavJain01/ManavJain01/assets/118716368/0b658e35-6c9a-4e43-9345-974b129f1c85)
 
 
-  * Problem Solving
+
+
+* Problem Solving
 
 🔭 I’m currently working on Something new 😀.
