@@ -14,5 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![welcome to my profile](https://github.com/ManavJain01/ManavJain01/assets/118716368/7ce1a8fb-4615-4e57-a5b2-db5f33eeee0d)
+
+
+
 🔭 I’m currently working on MERN stack development.
 🌱 I’m currently learning Node JS
