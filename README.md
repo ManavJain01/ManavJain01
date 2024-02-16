@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Manav Jain</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<img align="right" alt="coding" width="400" src="[https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FAndrewaziz99&psig=AOvVaw0uJKK_S8UYsJGO_SSCsL4d&ust=1708146098662000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNC98OKKr4QDFQAAAAAdAAAAABAG](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMw8u9XAejBmmCbaNBvfxpgOB4-0I44HhmdA&usqp=CAU)">
+<img align="right" alt="coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMw8u9XAejBmmCbaNBvfxpgOB4-0I44HhmdA&usqp=CAU">
 
 - 🌱 I’m currently learning **Something new**
 
