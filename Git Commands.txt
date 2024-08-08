@@ -1,0 +1,113 @@
+Commands:-
+----------INITIAL COMMANDS--------------Create a new Repository-------------------------
+1. echo "# temp" >> README.md
+2. git init
+3. git add README.md
+4. git commit -m "first commit"
+5. git branch -M main
+6. git remote add origin https://github.com/userName/repoName.git
+7. git push -u origin main
+
+----------INITIAL COMMANDS--------------Push an existing Repository---------------------
+1. git remote add origin https://github.com/userName/repoName.git
+2. git branch -M main
+3. git push -u origin main
+
+----------BASIC COMMANDS----------------------------------------------------------------
+1. git clone https://github.com/userName/repoName.git
+2. git clone https://github.com/userName/repoName/tree/treeName
+
+
+----------Daily COMMANDS----------------------------------------------------------------
+01. git add .
+02. git commit -m "commit name"
+03. git push -u origin main
+04. git pull
+  4.1. git pull origin main
+  4.2. git pull origin master
+05. git fetch origin
+06. git checkout -b master origin/master
+07. git diff main..master
+  7.1. git log main..master
+08. git checkout main
+  8.1. git merge master
+  8.2. git push origin main
+09. git reset --soft HEAD~1	//remove commit
+10. git reset --hard HEAD~1	//remove all changes
+11. git branch
+  11.1. git branch -vv 
+  11.2. git branch -D master	//delete the branch
+  11.3. git branch -r
+12. 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------Setup & Configuration-------------------------------------------------------
+git config --global user.name "Your Name": Sets the name that will be attached to your commits.
+git config --global user.email "your.email@example.com": Sets the email that will be attached to your commits.
+git config --list: Lists all configuration settings.
+
+-------------Starting a Repository-------------------------------------------------------
+git init: Initializes a new Git repository in the current directory.
+git clone <repository-url>: Clones an existing repository from a URL.
+
+-------------Basic Snapshotting----------------------------------------------------------
+git add <file>: Stages a file for commit.
+git add .: Stages all changes in the directory for commit.
+git commit -m "Commit message": Commits the staged files with a message.
+git commit -am "Commit message": Stages all tracked files and commits them with a message.
+
+-------------Branching & Merging---------------------------------------------------------
+git branch: Lists all branches in the repository.
+git branch <branch-name>: Creates a new branch.
+git checkout <branch-name>: Switches to the specified branch.
+git checkout -b <branch-name>: Creates and switches to a new branch.
+git merge <branch-name>: Merges the specified branch into the current branch.
+git branch -d <branch-name>: Deletes the specified branch.
+
+------------Remote Repositories-----------------------------------------------------------
+git remote: Lists the remote connections.
+git remote add <name> <url>: Adds a remote repository.
+git fetch <remote>: Fetches changes from the remote but does not merge them.
+git pull <remote>: Fetches and merges changes from the remote.
+git push <remote> <branch>: Pushes your changes to the remote repository.
+git push --set-upstream <remote> <branch>: Sets the remote branch as the upstream branch.
+
+------------Viewing History & Status------------------------------------------------------
+git status: Shows the status of your working directory and staging area.
+git log: Shows a log of commits in the current branch.
+git log --oneline --graph --all: Shows a compact graph of commits from all branches.
+git show <commit>: Shows detailed information about a specific commit.
+git diff: Shows changes between your working directory and the staging area.
+git diff --staged: Shows changes between the staging area and the last commit.
+
+------------Undoing Changes---------------------------------------------------------------
+git restore <file>: Discards changes in the working directory.
+git restore --staged <file>: Unstages a file without discarding changes.
+git reset <commit>: Resets the current branch to a specific commit (keeps changes in the working directory).
+git reset --hard <commit>: Resets the current branch to a specific commit and discards all changes.
+
+------------Stashing-----------------------------------------------------------------------
+git stash: Stashes your changes in a temporary storage.
+git stash list: Lists all stashes.
+git stash pop: Applies the most recent stash and removes it from the stash list.
+git stash apply: Applies the most recent stash without removing it from the stash list.
+
+-----------Tagging------------------------------------------------------------------------
+git tag <tag-name>: Creates a tag at the current commit.
+git tag -a <tag-name> -m "Message": Creates an annotated tag with a message.
+git push <remote> <tag-name>: Pushes a tag to the remote repository.
+
+----------Advanced------------------------------------------------------------------------
+git rebase <branch>: Reapplies commits on top of another branch.
+git cherry-pick <commit>: Applies a commit from another branch.
+git bisect start: Starts a binary search to find the commit that introduced a bug.
+git bisect good <commit>: Marks the current commit as good during a bisect.
+git bisect bad <commit>: Marks the current commit as bad during a bisect.
+
+------------Cleaning Up-------------------------------------------------------------------
+git clean -f: Removes untracked files from your working directory.
+git clean -fd: Removes untracked files and directories from your working directory.
+
+These commands cover most of what you'll need to manage Git repositories effectively.
