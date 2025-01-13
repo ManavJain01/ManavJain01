@@ -1,0 +1,73 @@
+Commands:-
+----------DOCKER BASICS--------------------------------------------------------------------------------
+1. docker --version   ---------------------------------------------------------------------------------
+ 1.1. docker version  ---------------------------------------------------------------------------------
+2. docker info     ------------------Verify Docker Installation----------------------------------------
+
+----------WORKING WITH IMAGES--------------------------------------------------------------------------
+1. docker images   ------------------List Images-------------------------------------------------------
+2. docker search <image-name> -------Search for an Image on Docker Hub---------------------------------
+3. docker pull <image-name>   -------Pull an Image from Docker Hub-------------------------------------
+4. docker rmi <image-id or image-name>    ---Remove an Image-------------------------------------------
+5. docker build -t <tag-name> <path-to-dockerfile> ---Build an Image from a Dockerfile-----------------
+
+----------WORKING WITH CONTAINERS----------------------------------------------------------------------
+01. docker ps                  -------List Running Containers------------------------------------------
+02. docker ps -a               -------List All Containers (Running and Stopped)------------------------
+03. docker run <image-name>    -------Create and Start a Container-------------------------------------
+  3.1. docker run -d <image-name> -------Run in detached mode------------------------------------------
+  3.2. docker run --name <container-name> <image-name>   ---Assign a name to the container-------------
+  3.3. docker run -p <host-port>:<container-port> <image-name>  ---Map ports---------------------------
+  3.4. docker run -v <host-path>:<container-path> <image-name>  ---Mount volumes-----------------------
+04. docker stop <container-id or container-name>  ---Stop a Running Container--------------------------
+05. docker restart <container-id or container-name>  ---Restart a Container----------------------------
+06. docker rm <container-id or container-name>   ---Remove a Container---------------------------------
+07. docker exec <container-id or container-name> <command>   ---Run a Command in a Running Container---
+08. docker start <container-id or container-name>   ---Start a Stopped Container-----------------------
+09. docker logs <container-id or container-name>   ---View Container Logs------------------------------
+10. docker attach <container-id or container-name>   ---Attach to a Running Container------------------
+11. docker inspect <container-id or container-name>   ---Inspect a Container's Details-----------------
+
+----------VOLUMES--------------------------------------------------------------------------------------
+1. docker volume ls          -------List Volumes-------------------------------------------------------
+2. docker volume create <volume-name>   ---Create a Volume---------------------------------------------
+3. docker volume inspect <volume-name>   ---Inspect a Volume-------------------------------------------
+4. docker volume rm <volume-name>   ---Remove a Volume-------------------------------------------------
+
+----------NETWORKS-------------------------------------------------------------------------------------
+1. docker network ls         -------List Networks------------------------------------------------------
+2. docker network create <network-name>   ---Create a Network------------------------------------------
+3. docker network inspect <network-name>   ---Inspect a Network----------------------------------------
+4. docker network connect <network-name> <container-name>   ---Connect a Container to a Network--------
+5. docker network disconnect <network-name> <container-name>   --Disconnect a Container from a Network-
+6. docker network rm <network-name>   ---Remove a Network----------------------------------------------
+
+----------DOCKER COMPOSE-------------------------------------------------------------------------------
+1. docker-compose up         -------Start Services-----------------------------------------------------
+ 1.1. docker-compose up -d   -------Detached mode------------------------------------------------------
+2. docker-compose down       -------Stop Services------------------------------------------------------
+3. docker-compose build      -------Build Images for Services------------------------------------------
+4. docker-compose logs       -------View Logs of Services----------------------------------------------
+5. docker-compose ps         -------List Running Services----------------------------------------------
+
+----------CLEANUP COMMANDS-----------------------------------------------------------------------------
+1. docker container prune    -------Remove All Stopped Containers--------------------------------------
+2. docker image prune        -------Remove All Unused Images-------------------------------------------
+ 2.1. docker image prune -a  -------Remove all unused images, not just dangling ones-------------------
+3. docker volume prune       -------Remove All Unused Volumes------------------------------------------
+4. docker network prune      -------Remove All Unused Networks-----------------------------------------
+5. docker system prune       -------Remove Everything Unused (Containers, Images, Volumes, Networks)---
+ 5.1. docker system prune -a -------Aggressive cleanup-------------------------------------------------
+
+----------MONITORING AND DEBUGGING---------------------------------------------------------------------
+1. docker stats              -------View Resource Usage (Containers)-----------------------------------
+2. docker events             -------View Real-Time Events----------------------------------------------
+3. docker top <container-id or container-name>   ---View Container Processes---------------------------
+
+----------SAVE AND LOAD--------------------------------------------------------------------------------
+1. docker save -o <file-name.tar> <image-name>   ---Save an Image to a File----------------------------
+2. docker load -i <file-name.tar>   ---Load an Image from a File---------------------------------------
+
+----------TAGGING AND PUSHING--------------------------------------------------------------------------
+1. docker tag <image-name> <repository-name>:<tag>   ---Tag an Image-----------------------------------
+2. docker push <repository-name>:<tag>   ---Push an Image to Docker Hub--------------------------------
